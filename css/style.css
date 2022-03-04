@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  box-shadow: 1px 2px 5px black;
+  margin-bottom: 30px;
+
+}
+.main{
+  height: 104vh;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.join-btn{
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 40px;
+  width: 130px;
+  border-radius: 15px;
+  border: none;
+  background-color: #4bb1fb;
+  cursor: pointer;
+  font-weight: bold;
+}
+.join-btn:hover{
+  background-color: #63baf8af;
+  color: purple;
+}
+body{
+  background-image: url("https://i.ytimg.com/vi/mOFoh9FUR8w/maxresdefault.jpg");
+}
+
+.container{
+  height: 60vh;
+  width: 30vw;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow-y: auto;
+  background-image: linear-gradient(red, blue, purple);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkL_HAsh3QgczpbrFE9VtZEP0RAYeaOqw-XVrMVnPlncs8hRZIXkJk0Yy9_fO83jFLYpo&usqp=CAU");
+  box-shadow: 1px 2px 5px black;
+  object-fit: cover;
+  
+
+}
+nav{
+  
+  text-align: center;
+}
+
+.message{
+  display: inline-block;
+  box-shadow: 1px 2px 5px black;
+  width: 60%;
+  height: 8%;
+  clear: both;
+  font-size: 14px;
+  margin: 13px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+
+}
+
+.left{
+  float: left;
+  border-radius: 2px 10px 10px 20px;
+  background-color: rgb(175, 175, 175);
+  text-align: start;
+  padding-left: 10px;
+
+
+}
+
+.right{
+  float: right;
+  border-radius: 10px 2px 20px 10px;
+  background-color: rgb(123, 238, 88);
+  text-align: start;
+  padding-left: 10px;
+
+}
+
+#messageInp{
+  width: 20vw;
+  height: 4vh;
+  font-size: 18px;
+  border-radius: 10px;
+
+}
+.btn{
+  height: 29px;
+  width: 65px;
+  border-radius: 6px;
+  background-color: rgb(9, 73, 9);
+}
+
+#send-container{
+  text-align: center;
+}
